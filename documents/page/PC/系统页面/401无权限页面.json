@@ -1,9 +1,9 @@
 {
-  "id" : "UCFF8GLA",
+  "id" : "A2E77S7X",
   "type" : "page",
   "name" : "401无权限页面",
   "rootElement" : {
-    "id" : "V51SW7QL",
+    "id" : "QHXJZEMG",
     "name" : "未授权页根布局",
     "type" : "linear-layout",
     "pluginName" : "component-common",
@@ -46,7 +46,7 @@
     "events" : [ ],
     "properties" : [ ],
     "children" : [ {
-      "id" : "OWSCYI1Q",
+      "id" : "G5ID5X8N",
       "name" : "未授权标题文本",
       "type" : "text",
       "pluginName" : "component-common",
@@ -88,7 +88,7 @@
         "expression" : ""
       }
     }, {
-      "id" : "KNJZ8ADY",
+      "id" : "A7BQPWMI",
       "name" : "未授权说明文本",
       "type" : "text",
       "pluginName" : "component-common",
@@ -142,6 +142,5 @@
   "description" : "",
   "externalCssFiles" : [ ],
   "externalJsFiles" : [ ],
-  "url" : "/PC/系统页面/无权限页面",
-  "platform" : "pc"
+  "url" : "/PC/系统页面/无权限页面"
 }

@@ -1,10 +1,10 @@
 {
-  "id" : "DZTT9658",
+  "id" : "QOSW8PIJ",
   "name" : "登录页",
   "resourceType" : "page",
   "description" : "",
   "variables" : [ {
-    "id" : "ZQX3OB4Z",
+    "id" : "KM1L1VHI",
     "name" : "redirect",
     "isParameter" : true,
     "defaultValue" : {
@@ -15,7 +15,7 @@
     },
     "description" : ""
   }, {
-    "id" : "I1LZDMG3",
+    "id" : "VP2NDTW1",
     "name" : "loginError",
     "isParameter" : true,
     "defaultValue" : {
@@ -27,7 +27,7 @@
     },
     "description" : ""
   }, {
-    "id" : "WPDL0J7X",
+    "id" : "HX6RD7JT",
     "name" : "userName",
     "defaultValue" : {
       "type" : "literal"
@@ -37,7 +37,7 @@
     },
     "description" : ""
   }, {
-    "id" : "J5KFXT7N",
+    "id" : "XK01KGRA",
     "name" : "password",
     "defaultValue" : {
       "type" : "literal"
@@ -47,7 +47,7 @@
     },
     "description" : ""
   }, {
-    "id" : "ER08C1Q3",
+    "id" : "FG0IVQQ8",
     "name" : "rememberMe",
     "defaultValue" : {
       "type" : "literal"
@@ -57,7 +57,7 @@
     },
     "description" : ""
   }, {
-    "id" : "OSFSPOLU",
+    "id" : "SXF6Q425",
     "name" : "config",
     "defaultValue" : {
       "type" : "literal",
@@ -70,7 +70,7 @@
   } ],
   "logics" : [ ],
   "eventListeners" : [ {
-    "id" : "JSXUSAPF",
+    "id" : "KANGXYPT",
     "name" : "页面加载前1",
     "variables" : [ ],
     "parameters" : [ ],
@@ -78,27 +78,27 @@
     "targetEvent" : "enter"
   } ],
   "elementEventListeners" : [ {
-    "elementId" : "WHTAOCIZ",
+    "elementId" : "TNHEOAO1",
     "elementName" : "登录按钮",
     "pluginName" : "component-ant-design",
     "type" : "button",
     "targetEvent" : "click",
-    "id" : "KLQCPBHZ",
+    "id" : "UU6FKH0L",
     "name" : "单击",
     "variables" : [ {
-      "id" : "HRXB3VUU",
+      "id" : "I8HYBWMS",
       "name" : "message",
       "dataType" : {
         "typeId" : "String"
       }
     }, {
-      "id" : "T5VTD6V3",
+      "id" : "IVYV45TQ",
       "name" : "success",
       "dataType" : {
         "typeId" : "Boolean"
       }
     }, {
-      "id" : "ARJ3HJUM",
+      "id" : "CT0AJH15",
       "name" : "isValid",
       "dataType" : {
         "typeId" : "Boolean"
@@ -107,6 +107,5 @@
     "parameters" : [ ],
     "returnValues" : [ ]
   } ],
-  "platform" : "pc",
   "url" : "/PC/系统页面/登录页"
 }

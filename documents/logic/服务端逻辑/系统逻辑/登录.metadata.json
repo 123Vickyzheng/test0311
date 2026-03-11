@@ -1,23 +1,23 @@
 {
-  "id" : "EHTCIDYA",
+  "id" : "VNNVFOCO",
   "name" : "登录",
   "description" : "",
   "parameters" : [ {
-    "id" : "H3FEACYV",
+    "id" : "G4C8M865",
     "name" : "userName",
     "dataType" : {
       "typeId" : "String"
     },
     "isRequired" : true
   }, {
-    "id" : "D58WB51T",
+    "id" : "AJTU4HEH",
     "name" : "password",
     "dataType" : {
       "typeId" : "String"
     },
     "isRequired" : true
   }, {
-    "id" : "YWYPPP1U",
+    "id" : "LGY23VOY",
     "name" : "rememberMe",
     "dataType" : {
       "typeId" : "Boolean"
@@ -30,7 +30,7 @@
   } ],
   "variables" : [ ],
   "returnValues" : [ {
-    "id" : "PHK23TL5",
+    "id" : "GH2VOEEL",
     "name" : "message",
     "dataType" : {
       "typeId" : "String"
@@ -40,7 +40,7 @@
       "literal" : ""
     }
   }, {
-    "id" : "YSKGXQ7M",
+    "id" : "OZ8A1K0S",
     "name" : "success",
     "dataType" : {
       "typeId" : "Boolean"

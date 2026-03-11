@@ -1,5 +1,5 @@
 {
-  "id" : "BVDOZO9W",
+  "id" : "XW4GZCRK",
   "name" : "404未发现页面",
   "resourceType" : "page",
   "description" : "",
@@ -7,6 +7,5 @@
   "logics" : [ ],
   "eventListeners" : [ ],
   "elementEventListeners" : [ ],
-  "platform" : "pc",
   "url" : "/PC/系统页面/未发现页面"
 }

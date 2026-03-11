@@ -1,5 +1,5 @@
 {
-  "id" : "UCFF8GLA",
+  "id" : "A2E77S7X",
   "name" : "401无权限页面",
   "resourceType" : "page",
   "description" : "",
@@ -7,6 +7,5 @@
   "logics" : [ ],
   "eventListeners" : [ ],
   "elementEventListeners" : [ ],
-  "platform" : "pc",
   "url" : "/PC/系统页面/无权限页面"
 }

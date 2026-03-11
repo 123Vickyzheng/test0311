@@ -1,0 +1,18 @@
+{
+  "id" : "IOG675AV",
+  "name" : "获取",
+  "enableTransaction" : true,
+  "allowExpressionCall" : false,
+  "parameters" : [ ],
+  "variables" : [ ],
+  "returnValues" : [ {
+    "id" : "WVX1ZM8R",
+    "name" : "返回值1",
+    "dataType" : {
+      "typeId" : "List",
+      "genericTypes" : [ {
+        "typeId" : "II336NU4"
+      } ]
+    }
+  } ]
+}

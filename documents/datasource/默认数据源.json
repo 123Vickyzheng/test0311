@@ -1,5 +1,5 @@
 {
-  "id" : "KN4FQ76C",
+  "id" : "RYDEQP36",
   "name" : "默认数据源",
   "userName" : null,
   "password" : null,
@@ -8,7 +8,6 @@
   "extraJdbcUrl" : null,
   "description" : null,
   "type" : "sqlite",
-  "customConfig" : null,
   "advanceConfig" : {
     "poolPreparedStatements" : true,
     "maxWait" : 3000,
@@ -17,8 +16,7 @@
     "minIdle" : 0,
     "initialSize" : 0,
     "breakAfterAcquireFailure" : true,
-    "connectionErrorRetryAttempts" : 5,
-    "extensionProperties" : null
+    "connectionErrorRetryAttempts" : 5
   },
   "capabilityConfig" : {
     "autoSync" : true,

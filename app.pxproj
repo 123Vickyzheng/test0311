@@ -1,7 +1,10 @@
 {
   "projectType" : "Collaboration",
-  "appName" : "NEW",
+  "appName" : "io",
   "ideVersion" : "0.0.1",
   "branchName" : "main",
-  "repoUrl" : "https://github.com/123Vickyzheng/test0311.git"
+  "repoUrl" : "https://github.com/123Vickyzheng/test0311.git",
+  "page" : {
+    "defaultStartupPage" : "CAIIYCQL"
+  }
 }

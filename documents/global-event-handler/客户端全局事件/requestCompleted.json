@@ -1,23 +1,23 @@
 {
-  "id" : "E7Y8X3YG",
+  "id" : "A6N7YUWA",
   "name" : "requestCompleted",
   "displayName" : "请求完成后",
   "description" : "处理HTTP请求完成事件，包括错误处理和页面跳转",
   "type" : "globalEvent",
   "resourceType" : "globalEvent",
   "sourceLogic" : {
-    "id" : "HNP0C8GA",
+    "id" : "W13IO7RQ",
     "name" : "请求完成后",
     "displayName" : "请求完成后",
     "parameters" : [ {
-      "id" : "Y9BGW660",
+      "id" : "S8BDH4AY",
       "name" : "request",
       "dataType" : {
         "typeId" : "PMSBQ9LE"
       },
       "description" : "HTTP请求信息"
     }, {
-      "id" : "JMW3E4OP",
+      "id" : "QVN521JJ",
       "name" : "response",
       "dataType" : {
         "typeId" : "CLHTTPRS"
@@ -28,7 +28,7 @@
     "returnValues" : [ ],
     "diagram" : {
       "nodes" : [ {
-        "id" : "ETJYLM5I",
+        "id" : "ABA5TK42",
         "name" : "开始",
         "pluginName" : "",
         "identifier" : "",
@@ -40,7 +40,7 @@
         },
         "isStartPoint" : true
       }, {
-        "id" : "Q09YSFD6",
+        "id" : "PX3DO16J",
         "name" : "判断页面请求401",
         "pluginName" : "logic-core",
         "identifier" : "if",
@@ -69,7 +69,7 @@
                           "structure" : {
                             "id" : {
                               "type" : "literal",
-                              "literal" : "XUW3RE3Q"
+                              "literal" : "OO7LOGX4"
                             },
                             "conditionType" : {
                               "type" : "literal",
@@ -81,7 +81,7 @@
                             },
                             "operand" : {
                               "type" : "expression",
-                              "expression" : "Y9BGW660.ABCDG3XY"
+                              "expression" : "S8BDH4AY.ABCDG3XY"
                             },
                             "value" : {
                               "type" : "literal",
@@ -93,7 +93,7 @@
                           "structure" : {
                             "id" : {
                               "type" : "literal",
-                              "literal" : "TNR4VOI9"
+                              "literal" : "Z2QKY3AC"
                             },
                             "conditionType" : {
                               "type" : "literal",
@@ -105,7 +105,7 @@
                             },
                             "operand" : {
                               "type" : "expression",
-                              "expression" : "JMW3E4OP.CLHRS001"
+                              "expression" : "QVN521JJ.CLHRS001"
                             },
                             "value" : {
                               "type" : "literal",
@@ -134,7 +134,7 @@
                   "structure" : {
                     "identifier" : {
                       "type" : "literal",
-                      "literal" : "SRGCZ6V7"
+                      "literal" : "OYVYM8XA"
                     },
                     "conditions" : {
                       "type" : "structure",
@@ -150,7 +150,7 @@
                             "structure" : {
                               "id" : {
                                 "type" : "literal",
-                                "literal" : "O72F6FV0"
+                                "literal" : "P1W7X2KU"
                               },
                               "conditionType" : {
                                 "type" : "literal",
@@ -163,7 +163,7 @@
                               "operand" : {
                                 "type" : "expression",
                                 "literal" : "",
-                                "expression" : "Y9BGW660.ABCDG3XY"
+                                "expression" : "S8BDH4AY.ABCDG3XY"
                               },
                               "value" : {
                                 "type" : "literal",
@@ -175,7 +175,7 @@
                             "structure" : {
                               "id" : {
                                 "type" : "literal",
-                                "literal" : "RSITI9RS"
+                                "literal" : "C6HSTRZQ"
                               },
                               "conditionType" : {
                                 "type" : "literal",
@@ -188,7 +188,7 @@
                               "operand" : {
                                 "type" : "expression",
                                 "literal" : "",
-                                "expression" : "JMW3E4OP.CLHRS004"
+                                "expression" : "QVN521JJ.CLHRS004"
                               },
                               "value" : {
                                 "type" : "literal",
@@ -205,7 +205,7 @@
                   "structure" : {
                     "identifier" : {
                       "type" : "literal",
-                      "literal" : "O4YF2ICI"
+                      "literal" : "O6OEKKGK"
                     },
                     "conditions" : {
                       "type" : "structure",
@@ -221,7 +221,7 @@
                             "structure" : {
                               "id" : {
                                 "type" : "literal",
-                                "literal" : "S1XMCDQJ"
+                                "literal" : "VUK1ZUKE"
                               },
                               "conditionType" : {
                                 "type" : "literal",
@@ -234,7 +234,7 @@
                               "operand" : {
                                 "type" : "expression",
                                 "literal" : "",
-                                "expression" : "Y9BGW660.ABCDG3XY"
+                                "expression" : "S8BDH4AY.ABCDG3XY"
                               },
                               "value" : {
                                 "type" : "literal",
@@ -246,7 +246,7 @@
                             "structure" : {
                               "id" : {
                                 "type" : "literal",
-                                "literal" : "MVFV3YUU"
+                                "literal" : "TRBFG6M3"
                               },
                               "conditionType" : {
                                 "type" : "literal",
@@ -259,7 +259,7 @@
                               "operand" : {
                                 "type" : "expression",
                                 "literal" : "",
-                                "expression" : "JMW3E4OP.CLHRS001"
+                                "expression" : "QVN521JJ.CLHRS001"
                               },
                               "value" : {
                                 "type" : "literal",
@@ -276,7 +276,7 @@
                   "structure" : {
                     "identifier" : {
                       "type" : "literal",
-                      "literal" : "JR4IW2ON"
+                      "literal" : "QJP6515P"
                     },
                     "conditions" : {
                       "type" : "structure",
@@ -292,7 +292,7 @@
                             "structure" : {
                               "id" : {
                                 "type" : "literal",
-                                "literal" : "BXKRYTH7"
+                                "literal" : "Q8XL79M0"
                               },
                               "conditionType" : {
                                 "type" : "literal",
@@ -305,7 +305,7 @@
                               "operand" : {
                                 "type" : "expression",
                                 "literal" : "",
-                                "expression" : "Y9BGW660.ABCDG3XY"
+                                "expression" : "S8BDH4AY.ABCDG3XY"
                               },
                               "value" : {
                                 "type" : "literal",
@@ -317,7 +317,7 @@
                             "structure" : {
                               "id" : {
                                 "type" : "literal",
-                                "literal" : "WZQZGQGY"
+                                "literal" : "MV6DFBWT"
                               },
                               "conditionType" : {
                                 "type" : "literal",
@@ -330,7 +330,7 @@
                               "operand" : {
                                 "type" : "expression",
                                 "literal" : "",
-                                "expression" : "JMW3E4OP.CLHRS004"
+                                "expression" : "QVN521JJ.CLHRS004"
                               },
                               "value" : {
                                 "type" : "literal",
@@ -354,7 +354,7 @@
           }
         }
       }, {
-        "id" : "PPVHQCK1",
+        "id" : "T6P3F46G",
         "name" : "",
         "pluginName" : "logic-core",
         "identifier" : "if",
@@ -387,11 +387,11 @@
                             },
                             "id" : {
                               "type" : "literal",
-                              "literal" : "MVYFYNCR"
+                              "literal" : "AW5G591W"
                             },
                             "operand" : {
                               "type" : "expression",
-                              "expression" : "IsNullOrEmpty(Map.Get(JMW3E4OP.CLHRS002,\"location\"))"
+                              "expression" : "IsNullOrEmpty(Map.Get(QVN521JJ.CLHRS002,\"location\"))"
                             },
                             "operator" : {
                               "type" : "literal",
@@ -431,7 +431,7 @@
           }
         }
       }, {
-        "id" : "GCKZU8DD",
+        "id" : "JRE22RM1",
         "name" : "导航到登录页",
         "pluginName" : "logic-ui-interaction",
         "identifier" : "destination",
@@ -442,7 +442,7 @@
           },
           "target" : {
             "type" : "ref",
-            "literal" : "DZTT9658"
+            "literal" : "QOSW8PIJ"
           },
           "windowTarget" : {
             "type" : "literal",
@@ -455,9 +455,9 @@
           "parameterValues" : {
             "type" : "structure",
             "structure" : {
-              "ZQX3OB4Z" : {
+              "KM1L1VHI" : {
                 "type" : "expression",
-                "expression" : "Map.Get(Y9BGW660.ZXCVB2NM,\"path\")"
+                "expression" : "Map.Get(S8BDH4AY.ZXCVB2NM,\"path\")"
               }
             }
           }
@@ -469,7 +469,7 @@
           }
         }
       }, {
-        "id" : "Z9LFH0T2",
+        "id" : "GN1RFMTA",
         "name" : "结束",
         "pluginName" : "logic-core",
         "identifier" : "return",
@@ -480,7 +480,7 @@
           }
         }
       }, {
-        "id" : "MGCNXB2Z",
+        "id" : "OHFLCOP4",
         "name" : "导航到无权限页",
         "pluginName" : "logic-ui-interaction",
         "identifier" : "destination",
@@ -491,7 +491,7 @@
           },
           "target" : {
             "type" : "ref",
-            "literal" : "UCFF8GLA"
+            "literal" : "A2E77S7X"
           },
           "windowTarget" : {
             "type" : "literal",
@@ -509,14 +509,14 @@
           }
         }
       }, {
-        "id" : "H9V5Y574",
+        "id" : "XDYNW8GN",
         "name" : "显示错误消息",
         "pluginName" : "component-ant-design",
         "identifier" : "message",
         "content" : {
           "content" : {
             "type" : "expression",
-            "expression" : "IF(ISBLANK(JMW3E4OP.CLHRS005),\"操作失败\",JMW3E4OP.CLHRS005)"
+            "expression" : "IF(ISBLANK(QVN521JJ.CLHRS005),\"操作失败\",QVN521JJ.CLHRS005)"
           },
           "type" : {
             "type" : "literal",
@@ -534,7 +534,7 @@
           }
         }
       }, {
-        "id" : "OKFTB1U9",
+        "id" : "B59Q48KI",
         "name" : "导航到未发现页",
         "pluginName" : "logic-ui-interaction",
         "identifier" : "destination",
@@ -545,7 +545,7 @@
           },
           "target" : {
             "type" : "ref",
-            "literal" : "BVDOZO9W"
+            "literal" : "XW4GZCRK"
           },
           "windowTarget" : {
             "type" : "literal",
@@ -563,7 +563,7 @@
           }
         }
       }, {
-        "id" : "IOB1J3RT",
+        "id" : "PFDAE3J8",
         "name" : "跳转到目标页",
         "pluginName" : "logic-ui-interaction",
         "identifier" : "destination",
@@ -582,7 +582,7 @@
           "href" : {
             "type" : "expression",
             "literal" : "",
-            "expression" : "Map.Get(JMW3E4OP.CLHRS002,\"location\")&\"?redirectUri=\"&Map.Get(Y9BGW660.ZXCVB2NM,\"path\")"
+            "expression" : "Map.Get(QVN521JJ.CLHRS002,\"location\")&\"?redirectUri=\"&Map.Get(S8BDH4AY.ZXCVB2NM,\"path\")"
           },
           "parameterValues" : {
             "type" : "structure",
@@ -597,88 +597,88 @@
         }
       } ],
       "edges" : [ {
-        "id" : "FANXYE9N",
-        "sourceId" : "ETJYLM5I",
-        "targetId" : "Q09YSFD6",
+        "id" : "GE3FW5OE",
+        "sourceId" : "ABA5TK42",
+        "targetId" : "PX3DO16J",
         "sourcePosition" : "right",
         "targetPosition" : "left"
       }, {
-        "id" : "XB8CJXYL",
-        "sourceId" : "Q09YSFD6",
+        "id" : "C8VE4NRT",
+        "sourceId" : "PX3DO16J",
         "sourceAnchorId" : "if",
-        "targetId" : "PPVHQCK1",
+        "targetId" : "T6P3F46G",
         "sourcePosition" : "right",
         "targetPosition" : "left"
       }, {
-        "id" : "EOWLF1DY",
-        "sourceId" : "GCKZU8DD",
-        "targetId" : "Z9LFH0T2",
+        "id" : "BVMRUFV5",
+        "sourceId" : "JRE22RM1",
+        "targetId" : "GN1RFMTA",
         "sourcePosition" : "right",
         "targetPosition" : "left"
       }, {
-        "id" : "UC6I51AG",
-        "sourceId" : "Q09YSFD6",
-        "sourceAnchorId" : "JR4IW2ON",
-        "targetId" : "H9V5Y574",
+        "id" : "RWDNSS27",
+        "sourceId" : "PX3DO16J",
+        "sourceAnchorId" : "QJP6515P",
+        "targetId" : "XDYNW8GN",
         "sourcePosition" : "right",
         "targetPosition" : "left"
       }, {
-        "id" : "FVI3OPV0",
-        "sourceId" : "Q09YSFD6",
+        "id" : "VPY8495J",
+        "sourceId" : "PX3DO16J",
         "sourceAnchorId" : "else",
-        "targetId" : "Z9LFH0T2",
+        "targetId" : "GN1RFMTA",
         "sourcePosition" : "right",
         "targetPosition" : "left"
       }, {
-        "id" : "YO2WDQCI",
-        "sourceId" : "H9V5Y574",
-        "targetId" : "Z9LFH0T2",
+        "id" : "DG7YZO1D",
+        "sourceId" : "XDYNW8GN",
+        "targetId" : "GN1RFMTA",
         "sourcePosition" : "right",
         "targetPosition" : "left"
       }, {
-        "id" : "NVTHZ9UD",
-        "sourceId" : "Q09YSFD6",
-        "sourceAnchorId" : "O4YF2ICI",
-        "targetId" : "MGCNXB2Z",
+        "id" : "ISJ1X6QM",
+        "sourceId" : "PX3DO16J",
+        "sourceAnchorId" : "O6OEKKGK",
+        "targetId" : "OHFLCOP4",
         "sourcePosition" : "right",
         "targetPosition" : "left"
       }, {
-        "id" : "PXII6QTW",
-        "sourceId" : "Q09YSFD6",
-        "sourceAnchorId" : "SRGCZ6V7",
-        "targetId" : "OKFTB1U9",
+        "id" : "EXFYADXU",
+        "sourceId" : "PX3DO16J",
+        "sourceAnchorId" : "OYVYM8XA",
+        "targetId" : "B59Q48KI",
         "sourcePosition" : "right",
         "targetPosition" : "left"
       }, {
-        "id" : "FSZHGCXL",
-        "sourceId" : "OKFTB1U9",
-        "targetId" : "Z9LFH0T2",
+        "id" : "X0VA44UR",
+        "sourceId" : "B59Q48KI",
+        "targetId" : "GN1RFMTA",
         "sourcePosition" : "right",
         "targetPosition" : "left"
       }, {
-        "id" : "XFG5EM0L",
-        "sourceId" : "MGCNXB2Z",
-        "targetId" : "Z9LFH0T2",
+        "id" : "Y6U27AXB",
+        "sourceId" : "OHFLCOP4",
+        "targetId" : "GN1RFMTA",
         "sourcePosition" : "right",
         "targetPosition" : "left"
       }, {
-        "id" : "UJQCNVNV",
-        "sourceId" : "IOB1J3RT",
-        "targetId" : "Z9LFH0T2",
+        "id" : "YIVYPD7Z",
+        "sourceId" : "PFDAE3J8",
+        "targetId" : "GN1RFMTA",
         "sourcePosition" : "right",
         "targetPosition" : "left"
       }, {
-        "id" : "U1ADS01A",
-        "sourceId" : "PPVHQCK1",
+        "id" : "N436TFIS",
+        "sourceId" : "T6P3F46G",
         "sourceAnchorId" : "if",
-        "targetId" : "GCKZU8DD",
+        "targetId" : "JRE22RM1",
         "sourcePosition" : "right",
         "targetPosition" : "left"
       }, {
-        "id" : "K0PFUYSD",
-        "sourceId" : "PPVHQCK1",
+        "id" : "AH4F0I61",
+        "sourceId" : "T6P3F46G",
         "sourceAnchorId" : "else",
-        "targetId" : "IOB1J3RT",
+        "targetId" : "PFDAE3J8",
         "sourcePosition" : "right",
         "targetPosition" : "left"
       } ]

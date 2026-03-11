@@ -1,9 +1,9 @@
 {
-  "id" : "BVDOZO9W",
+  "id" : "XW4GZCRK",
   "type" : "page",
   "name" : "404未发现页面",
   "rootElement" : {
-    "id" : "PH360AZP",
+    "id" : "C1AF9QMH",
     "name" : "页面未找到根布局",
     "type" : "linear-layout",
     "pluginName" : "component-common",
@@ -46,7 +46,7 @@
     "events" : [ ],
     "properties" : [ ],
     "children" : [ {
-      "id" : "L2F0FGTF",
+      "id" : "GOAQVU8Q",
       "name" : "页面不存在标题文本",
       "type" : "text",
       "pluginName" : "component-common",
@@ -88,7 +88,7 @@
         "expression" : ""
       }
     }, {
-      "id" : "P6VWRLGN",
+      "id" : "U9IQPPQH",
       "name" : "页面不存在说明文本",
       "type" : "text",
       "pluginName" : "component-common",
@@ -134,6 +134,5 @@
   "description" : "",
   "externalCssFiles" : [ ],
   "externalJsFiles" : [ ],
-  "url" : "/PC/系统页面/未发现页面",
-  "platform" : "pc"
+  "url" : "/PC/系统页面/未发现页面"
 }

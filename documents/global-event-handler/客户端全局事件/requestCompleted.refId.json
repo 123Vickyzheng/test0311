@@ -1,18 +1,18 @@
 {
   "PMSBQ9LE" : "HttpRequest",
-  "Y9BGW660" : "request",
+  "S8BDH4AY" : "request",
   "CLHTTPRS" : "ServiceResponse",
-  "JMW3E4OP" : "response",
+  "QVN521JJ" : "response",
   "ABCDG3XY" : "requestURL",
   "CLHRS001" : "status",
   "CLHRS004" : "errorType",
   "CLHRS002" : "headers",
   "Get" : "Get",
   "IsNullOrEmpty" : "IsNullOrEmpty",
-  "DZTT9658" : "登录页",
-  "ZQX3OB4Z" : "redirect",
+  "QOSW8PIJ" : "登录页",
+  "KM1L1VHI" : "redirect",
   "ZXCVB2NM" : "queryParams",
-  "UCFF8GLA" : "401无权限页面",
+  "A2E77S7X" : "401无权限页面",
   "CLHRS005" : "errorMessage",
-  "BVDOZO9W" : "404未发现页面"
+  "XW4GZCRK" : "404未发现页面"
 }
