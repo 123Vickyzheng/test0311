@@ -1,11 +1,11 @@
 {
-  "id" : "CKVR4QPQ",
+  "id" : "MKVRDBP4",
   "name" : "获取登录配置",
   "description" : "",
   "parameters" : [ ],
   "variables" : [ ],
   "returnValues" : [ {
-    "id" : "BVMBYC7D",
+    "id" : "KI2JBQLL",
     "name" : "config",
     "dataType" : {
       "typeId" : "Auto"

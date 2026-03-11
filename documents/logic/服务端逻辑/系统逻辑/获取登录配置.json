@@ -1,11 +1,11 @@
 {
-  "id" : "CKVR4QPQ",
+  "id" : "MKVRDBP4",
   "name" : "获取登录配置",
   "description" : "",
   "variables" : [ ],
   "parameters" : [ ],
   "returnValues" : [ {
-    "id" : "BVMBYC7D",
+    "id" : "KI2JBQLL",
     "name" : "config",
     "dataType" : {
       "typeId" : "Auto"
@@ -13,7 +13,7 @@
   } ],
   "diagram" : {
     "nodes" : [ {
-      "id" : "Z20NCLJ9",
+      "id" : "QC9XNPMH",
       "name" : "开始",
       "pluginName" : "",
       "identifier" : "",
@@ -25,7 +25,7 @@
       },
       "isStartPoint" : true
     }, {
-      "id" : "AJSZD30A",
+      "id" : "EBAHIKD2",
       "name" : "结束",
       "pluginName" : "logic-core",
       "identifier" : "return",
@@ -36,7 +36,7 @@
         }
       }
     }, {
-      "id" : "SBYTRBNA",
+      "id" : "UC8S15F9",
       "pluginName" : "logic-user-management",
       "identifier" : "get-login-config",
       "content" : {
@@ -48,7 +48,7 @@
               "loginData" : { }
             }
           },
-          "variable" : "BVMBYC7D"
+          "variable" : "KI2JBQLL"
         }
       },
       "attributes" : {
@@ -59,15 +59,15 @@
       }
     } ],
     "edges" : [ {
-      "id" : "RP02LF02",
-      "sourceId" : "Z20NCLJ9",
-      "targetId" : "SBYTRBNA",
+      "id" : "FGIEUKNA",
+      "sourceId" : "QC9XNPMH",
+      "targetId" : "UC8S15F9",
       "sourcePosition" : "right",
       "targetPosition" : "left"
     }, {
-      "id" : "ZRN9EWZJ",
-      "sourceId" : "SBYTRBNA",
-      "targetId" : "AJSZD30A",
+      "id" : "EP0ZYTOU",
+      "sourceId" : "UC8S15F9",
+      "targetId" : "EBAHIKD2",
       "sourcePosition" : "right",
       "targetPosition" : "left"
     } ]

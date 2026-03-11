@@ -1,0 +1,20 @@
+{
+  "id" : "MC17DJXF",
+  "dataSourceId" : "M1AXPV77",
+  "schema" : "C##PHOENIXTEST",
+  "tableName" : "NEWTABLE",
+  "name" : "NEWTABLE",
+  "showBuiltinColumns" : false,
+  "columns" : [ {
+    "id" : "GQD66MVK",
+    "columnName" : "COLUMN1",
+    "name" : "COLUMN1",
+    "dataType" : {
+      "typeId" : "String"
+    },
+    "isPrimaryKey" : false,
+    "isBuiltIn" : false,
+    "columnKind" : "physical",
+    "isAutoIncrement" : false
+  } ]
+}

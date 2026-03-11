@@ -1,14 +1,15 @@
 {
-  "id" : "CQ5P8DUK",
-  "name" : "mysql",
-  "host" : "xa-dd3-fs17ms57",
+  "host" : "xa-dd3-mysql84",
   "userName" : "AutoTest",
   "password" : "xA20200326",
   "port" : 3306,
-  "databaseName" : "phoenix_test",
+  "databaseName" : "phoenix_testdb",
   "extraJdbcUrl" : "connectionTimeZone=UTC&preserveInstants=true&forceConnectionTimeZoneToSession=true&allowPublicKeyRetrieval=true",
-  "description" : "xa-dd3",
+  "id" : "E8LNQ2QH",
+  "name" : "mysql84",
+  "description" : null,
   "type" : "mysql",
+  "isPinned" : false,
   "advanceConfig" : {
     "poolPreparedStatements" : true,
     "maxWait" : 3000,
@@ -17,8 +18,8 @@
     "minIdle" : 0,
     "initialSize" : 0,
     "breakAfterAcquireFailure" : true,
-    "connectionErrorRetryAttempts" : 5
+    "connectionErrorRetryAttempts" : 5,
+    "extensionProperties" : null
   },
-  "capabilityConfig" : null,
-  "isPinned" : false
+  "capabilityConfig" : null
 }
