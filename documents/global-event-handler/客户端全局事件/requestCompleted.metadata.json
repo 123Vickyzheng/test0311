@@ -1,5 +1,5 @@
 {
-  "id" : "WLTGBKSF",
+  "id" : "E7Y8X3YG",
   "name" : "requestCompleted",
   "displayName" : "请求完成后",
   "description" : "处理HTTP请求完成事件，包括错误处理和页面跳转",

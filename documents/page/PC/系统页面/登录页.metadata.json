@@ -1,10 +1,10 @@
 {
-  "id" : "E8Q674HR",
+  "id" : "DZTT9658",
   "name" : "登录页",
   "resourceType" : "page",
   "description" : "",
   "variables" : [ {
-    "id" : "N4RKC58U",
+    "id" : "ZQX3OB4Z",
     "name" : "redirect",
     "isParameter" : true,
     "defaultValue" : {
@@ -15,7 +15,7 @@
     },
     "description" : ""
   }, {
-    "id" : "LHJY0TCJ",
+    "id" : "I1LZDMG3",
     "name" : "loginError",
     "isParameter" : true,
     "defaultValue" : {
@@ -27,7 +27,7 @@
     },
     "description" : ""
   }, {
-    "id" : "FMGO5JKU",
+    "id" : "WPDL0J7X",
     "name" : "userName",
     "defaultValue" : {
       "type" : "literal"
@@ -37,7 +37,7 @@
     },
     "description" : ""
   }, {
-    "id" : "HD3IL2LK",
+    "id" : "J5KFXT7N",
     "name" : "password",
     "defaultValue" : {
       "type" : "literal"
@@ -47,7 +47,7 @@
     },
     "description" : ""
   }, {
-    "id" : "XL6PVW7Z",
+    "id" : "ER08C1Q3",
     "name" : "rememberMe",
     "defaultValue" : {
       "type" : "literal"
@@ -57,7 +57,7 @@
     },
     "description" : ""
   }, {
-    "id" : "CCFSBR60",
+    "id" : "OSFSPOLU",
     "name" : "config",
     "defaultValue" : {
       "type" : "literal",
@@ -70,7 +70,7 @@
   } ],
   "logics" : [ ],
   "eventListeners" : [ {
-    "id" : "VVA6BCSI",
+    "id" : "JSXUSAPF",
     "name" : "页面加载前1",
     "variables" : [ ],
     "parameters" : [ ],
@@ -78,27 +78,27 @@
     "targetEvent" : "enter"
   } ],
   "elementEventListeners" : [ {
-    "elementId" : "E4JOIGC1",
+    "elementId" : "WHTAOCIZ",
     "elementName" : "登录按钮",
     "pluginName" : "component-ant-design",
     "type" : "button",
     "targetEvent" : "click",
-    "id" : "B1HU4A5C",
+    "id" : "KLQCPBHZ",
     "name" : "单击",
     "variables" : [ {
-      "id" : "FKKBDJVJ",
+      "id" : "HRXB3VUU",
       "name" : "message",
       "dataType" : {
         "typeId" : "String"
       }
     }, {
-      "id" : "M7AK1YJ0",
+      "id" : "T5VTD6V3",
       "name" : "success",
       "dataType" : {
         "typeId" : "Boolean"
       }
     }, {
-      "id" : "VN4W2VQ0",
+      "id" : "ARJ3HJUM",
       "name" : "isValid",
       "dataType" : {
         "typeId" : "Boolean"

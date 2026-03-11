@@ -1,31 +1,11 @@
 {
-  "id" : "LGGU0FRB",
+  "id" : "R0NIL8JM",
   "name" : "页面1",
   "resourceType" : "page",
   "description" : "",
-  "variables" : [ {
-    "id" : "DHX0XQCG",
-    "name" : "表格所有字段",
-    "defaultValue" : {
-      "type" : "literal"
-    },
-    "dataType" : {
-      "typeId" : "List",
-      "genericTypes" : [ {
-        "typeId" : "SUH3TX6C"
-      } ]
-    },
-    "description" : ""
-  } ],
+  "variables" : [ ],
   "logics" : [ ],
-  "eventListeners" : [ {
-    "id" : "YG2285CB",
-    "name" : "页面加载前1",
-    "variables" : [ ],
-    "parameters" : [ ],
-    "returnValues" : [ ],
-    "targetEvent" : "enter"
-  } ],
+  "eventListeners" : [ ],
   "elementEventListeners" : [ ],
   "platform" : "pc"
 }
