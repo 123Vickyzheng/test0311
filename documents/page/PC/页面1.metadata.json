@@ -3,7 +3,29 @@
   "name" : "页面1",
   "resourceType" : "page",
   "description" : "",
-  "variables" : [ ],
+  "variables" : [ {
+    "id" : "VQUZ14UZ",
+    "name" : "变量1",
+    "defaultValue" : {
+      "type" : "literal",
+      "literal" : ""
+    },
+    "dataType" : {
+      "typeId" : "Auto"
+    },
+    "description" : ""
+  }, {
+    "id" : "PM83BF0P",
+    "name" : "变量2",
+    "defaultValue" : {
+      "type" : "literal",
+      "literal" : ""
+    },
+    "dataType" : {
+      "typeId" : "Auto"
+    },
+    "description" : ""
+  } ],
   "logics" : [ ],
   "eventListeners" : [ ],
   "elementEventListeners" : [ ],
