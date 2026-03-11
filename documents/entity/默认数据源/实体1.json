@@ -1,0 +1,182 @@
+{
+  "id" : "IJ38GZPP",
+  "dataSourceId" : "ZJ3WS942",
+  "tableName" : "实体1",
+  "name" : "实体1",
+  "showBuiltinColumns" : false,
+  "columns" : [ {
+    "type" : "entityColumnModel",
+    "id" : "QTAL16YB",
+    "columnName" : "id",
+    "name" : "id",
+    "dataType" : {
+      "typeId" : "Integer"
+    },
+    "dbType" : "INTEGER",
+    "width" : 100,
+    "isPrimaryKey" : true,
+    "isRequired" : true,
+    "isBuiltIn" : true,
+    "isAutoIncrement" : true,
+    "defaultValue" : null,
+    "isUnique" : true,
+    "columnKind" : "physical",
+    "precision" : 2000000000,
+    "scale" : 0,
+    "columnLength" : 2000000000
+  }, {
+    "type" : "entityColumnModel",
+    "id" : "U1TL36RT",
+    "columnName" : "字段1",
+    "name" : "字段1",
+    "dataType" : {
+      "typeId" : "String"
+    },
+    "dbType" : "TEXT",
+    "width" : 100,
+    "isRequired" : false,
+    "isPrimaryKey" : false,
+    "isBuiltIn" : false,
+    "isUnique" : false,
+    "isAutoIncrement" : false,
+    "columnKind" : "physical",
+    "precision" : 2000000000,
+    "scale" : 0,
+    "columnLength" : 2000000000,
+    "defaultValue" : null
+  }, {
+    "type" : "entityColumnModel",
+    "id" : "HSUJOOKK",
+    "columnName" : "字段2",
+    "name" : "字段2",
+    "dataType" : {
+      "typeId" : "String"
+    },
+    "dbType" : "TEXT",
+    "width" : 100,
+    "isRequired" : false,
+    "isPrimaryKey" : false,
+    "isBuiltIn" : false,
+    "isUnique" : false,
+    "isAutoIncrement" : false,
+    "columnKind" : "physical",
+    "precision" : 2000000000,
+    "scale" : 0,
+    "columnLength" : 2000000000,
+    "defaultValue" : null
+  }, {
+    "type" : "entityColumnModel",
+    "id" : "V03FH8RP",
+    "columnName" : "字段3",
+    "name" : "字段3",
+    "dataType" : {
+      "typeId" : "String"
+    },
+    "dbType" : "TEXT",
+    "width" : 100,
+    "isRequired" : false,
+    "isPrimaryKey" : false,
+    "isBuiltIn" : false,
+    "isUnique" : false,
+    "isAutoIncrement" : false,
+    "columnKind" : "physical",
+    "precision" : 2000000000,
+    "scale" : 0,
+    "columnLength" : 2000000000,
+    "defaultValue" : null
+  }, {
+    "type" : "entityColumnModel",
+    "id" : "LHDDWS9T",
+    "columnName" : "phx_created_at",
+    "name" : "创建时间",
+    "dataType" : {
+      "typeId" : "DateTime"
+    },
+    "dbType" : "TEXT",
+    "width" : 180,
+    "isPrimaryKey" : false,
+    "isRequired" : true,
+    "isBuiltIn" : true,
+    "defaultValue" : "NOW",
+    "isUnique" : false,
+    "columnKind" : "physical",
+    "precision" : 2000000000,
+    "scale" : 0,
+    "columnLength" : 2000000000,
+    "isAutoIncrement" : false
+  }, {
+    "type" : "entityColumnModel",
+    "id" : "HO241YUT",
+    "columnName" : "phx_updated_at",
+    "name" : "更新时间",
+    "dataType" : {
+      "typeId" : "DateTime"
+    },
+    "dbType" : "TEXT",
+    "width" : 180,
+    "isPrimaryKey" : false,
+    "isRequired" : true,
+    "isBuiltIn" : true,
+    "defaultValue" : "NOW",
+    "isUnique" : false,
+    "columnKind" : "physical",
+    "precision" : 2000000000,
+    "scale" : 0,
+    "columnLength" : 2000000000,
+    "isAutoIncrement" : false
+  }, {
+    "type" : "entityColumnModel",
+    "id" : "S66JZ66B",
+    "columnName" : "phx_created_by",
+    "name" : "创建人",
+    "dataType" : {
+      "typeId" : "String"
+    },
+    "dbType" : "TEXT",
+    "width" : 100,
+    "isPrimaryKey" : false,
+    "isRequired" : false,
+    "isBuiltIn" : true,
+    "defaultValue" : null,
+    "isUnique" : false,
+    "columnKind" : "physical",
+    "precision" : 2000000000,
+    "scale" : 0,
+    "columnLength" : 2000000000,
+    "isAutoIncrement" : false
+  }, {
+    "type" : "entityColumnModel",
+    "id" : "POPIPOPM",
+    "columnName" : "phx_updated_by",
+    "name" : "更新人",
+    "dataType" : {
+      "typeId" : "String"
+    },
+    "dbType" : "TEXT",
+    "width" : 100,
+    "isPrimaryKey" : false,
+    "isRequired" : false,
+    "isBuiltIn" : true,
+    "defaultValue" : null,
+    "isUnique" : false,
+    "columnKind" : "physical",
+    "precision" : 2000000000,
+    "scale" : 0,
+    "columnLength" : 2000000000,
+    "isAutoIncrement" : false
+  } ],
+  "type" : "entityModel",
+  "columnExtensionLoaded" : true,
+  "originalPath" : "/默认数据源/实体1",
+  "indexes" : [ {
+    "indexName" : "sqlite_autoindex_实体1_1",
+    "isUnique" : true,
+    "isPrimary" : true,
+    "isUnEditable" : true,
+    "description" : "主键索引",
+    "indexColumns" : [ {
+      "columnId" : "QTAL16YB",
+      "order" : "ASC"
+    } ]
+  } ]
+}

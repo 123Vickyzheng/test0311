@@ -1,0 +1,11 @@
+{
+  "id" : "YF7INEX0",
+  "name" : "页面4",
+  "resourceType" : "page",
+  "description" : "",
+  "variables" : [ ],
+  "logics" : [ ],
+  "eventListeners" : [ ],
+  "elementEventListeners" : [ ],
+  "platform" : "mobile"
+}

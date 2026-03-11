@@ -1,0 +1,28 @@
+{
+  "id" : "M1AXPV77",
+  "name" : "oracle",
+  "host" : "xa-dd3-oracle23",
+  "userName" : "C##PHOENIXTEST",
+  "password" : "xA20200326",
+  "port" : 1521,
+  "databaseName" : "free",
+  "extraJdbcUrl" : null,
+  "description" : "",
+  "type" : "oracle",
+  "customConfig" : {
+    "connectionType" : "serviceName"
+  },
+  "advanceConfig" : {
+    "poolPreparedStatements" : true,
+    "maxWait" : 3000,
+    "socketTimeout" : 60000,
+    "maxActive" : 8,
+    "minIdle" : 0,
+    "initialSize" : 0,
+    "breakAfterAcquireFailure" : true,
+    "connectionErrorRetryAttempts" : 5,
+    "extensionProperties" : null
+  },
+  "capabilityConfig" : null,
+  "isPinned" : false
+}
